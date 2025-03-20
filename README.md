@@ -25,4 +25,7 @@
 |[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
 
 # お好みで
+
+|部品|個数|備考|
+|:--|:--|:--|
 |[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが容易になります。|
