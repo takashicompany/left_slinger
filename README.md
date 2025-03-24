@@ -23,9 +23,11 @@ Left Slinger(レフトスリンガー)はジョイスティックとロータリ
 |[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|18||
 |[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)|3|滑り止めとして底面に貼ります。|
 |[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)|3|滑り止めとして底面に貼ります。|
-|[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|12||
-|ネジ(M2 12mm)|6||
+|[短いネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|9||
+|[中ぐらいのネジ(M2 8mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665433026721)|3||
+|長いネジ(M2 12mm)|6||
 |[スペーサー(M2 6mm以上)](https://shop.yushakobo.jp/products/a0800c2?variant=37665435189409)|9||
+
 
 ## ご自身で用意いただくもの
 |部品|個数|備考|
