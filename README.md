@@ -1,5 +1,14 @@
 # Left Slinger
 
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/01.jpg?raw=true" width = "600px" />
+
+Left Slinger(レフトスリンガー)はジョイスティックとロータリーエンコーダーを搭載した18キーの左手用のマクロパッドです。  
+奥側の放射状のキーレイアウトと手前側の矢印キーのユニークな配列を採用しました。  
+キースイッチソケットを搭載可能なため、キースイッチの交換が容易に行えます。  
+ジョイスティックはポインター操作の他に、奥、左奥、左の3方向にキー入力をアサインするモードを搭載しております。  
+
+<img src = "https://github.com/user-attachments/assets/e409d76a-e8d3-4c19-93c4-f15289b5f3ee?raw=true" height = "300px" /><img src = "https://github.com/user-attachments/assets/0e51f79d-1dd9-4cca-963b-64446c8a8563" height = "300px" />
+
 # 組み立てに必要なもの
 
 ## キットに同梱されているもの
@@ -30,7 +39,7 @@
 
 |部品|個数|備考|
 |:--|:--|:--|
-|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)|18|キースイッチの取り替えが容易になります。|
+|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)|18|キースイッチの取り替えが容易になります。基本的には使用することをオススメします。当ビルドガイドはキースイッチソケットを用いた例のみを紹介しております。|
 
 ## ファームウェア
 
@@ -65,6 +74,9 @@ Remapなどで指定すると使用可能となります。
 |USER 10|設定変更完了|設定変更レイヤーを終了してキーボードに保存します。|
 |USER 11|ジョイスティック操作切り替え|ジョイスティックの操作を切り替えます。(ポインター操作 / 3方向キー入力)|
 |USER 12|ジョイスティック3方向キー入力有効|このキーを押下している間は、ジョイスティック操作による3方向キー入力が可能です。|
+
+3方向入力は下図になります。  
+<img src = "https://github.com/user-attachments/assets/e409d76a-e8d3-4c19-93c4-f15289b5f3ee?raw=true" height = "300px" /><img src = "https://github.com/user-attachments/assets/0e51f79d-1dd9-4cca-963b-64446c8a8563" height = "300px" />
 
 # 組み立て方
 
