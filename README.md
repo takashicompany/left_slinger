@@ -1,6 +1,8 @@
 # Left Slinger
 
-# キットに同梱されるもの
+# 組み立てに必要なもの
+
+## キットに同梱されているもの
 
 |部品|個数|備考|
 |:--|:--|:--|
@@ -16,16 +18,19 @@
 |ネジ(M2 12mm)|6||
 |[スペーサー(M2 6mm以上)](https://shop.yushakobo.jp/products/a0800c2?variant=37665435189409)|9||
 
-# ご自身で用意いただくもの
+## ご自身で用意いただくもの
 |部品|個数|備考|
 |:--|:--|:--|
-|[RP2040-Zero](https://talpkeyboard.net/items/640ea9f3072c3c538731c515)|||
-|[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|||
-|[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|||
-|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
+|[RP2040-Zero](https://talpkeyboard.net/items/640ea9f3072c3c538731c515)|1||
+|[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|1||
+|[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|1||
+|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|18||
 
-# お好みで
+## お好みで
 
 |部品|個数|備考|
 |:--|:--|:--|
-|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが容易になります。|
+|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)|18|キースイッチの取り替えが容易になります。|
+
+
+
