@@ -68,9 +68,6 @@ Remapなどで指定すると使用可能となります。
 
 # 組み立て方
 
-
-# 組み立て方
-
 ## 1. 基板の表裏を確認する
 
 ### 表
@@ -193,20 +190,62 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 ボトムプレートに保護シートがある場合は剥がしてください。アクリル板の場合は水を少量つけてピンセットで端を持つと剥がれやすいことがあります。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-01.jpg?raw=true" width = "600px" />
 
+底上げプレートが2-3枚同梱されている場合はそちらも保護シートを剥がしてください。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8988.jpg?raw=true" width = "600px" />
+
 スペーサーとネジを使用してボトムプレートとスイッチプレートを固定します。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-02.jpg?raw=true" width = "600px" />
 
-ボトムプレートの底面側からネジ穴にネジを挿します。  
-<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-03.jpg?raw=true" width = "600px" />
+底面側からネジ穴にネジを挿します。  
+底上げプレートは重ねて長いネジで、それ以外の箇所は短いネジを挿してください。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8990.jpg?raw=true" width = "600px" />
 
 ボトムプレートの上面側から挿したネジをスペーサーで固定します。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-04.jpg?raw=true" width = "600px" />
 
 ボトムプレートの上に基板とスイッチプレートを重ねます。  
+(写真では底上げプレートを付け忘れています。ご了承ください。)  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-05.jpg?raw=true" width = "600px" />
 
 スペーサーとスイッチプレートをネジで固定します。  
-<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/080-bottom-06.jpg?raw=true" width = "600px" />
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8979.jpg?raw=true" width = "600px" />
+
+## 9. MCUカバープレートの取り付け
+
+*※ 2025/03/25 キーケット2025で頒布したLeft SlingerのキットにてMCUカバープレート取り付け用のネジが不足している可能性があります。ご自身で8mmのネジを購入して頂くか、[@takashicompany](https://x.com/takashicompany)までご連絡いただけましたら発送致します。お手数をおかけしますが、どうぞよろしくお願いいたします。*
+
+MCUカバープレートに保護シートがある場合は剥がしてください。アクリル板の場合は水を少量つけてピンセットで端を持つと剥がれやすいことがあります。  
+
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8981.jpg?raw=true" width = "600px" />
+
+取り付けには8mm程度のネジを使います。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8984.jpg?raw=true" width = "600px" />
+
+MCUカバープレートをスイッチプレートに重ねます。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8982.jpg?raw=true" width = "600px" />
+
+ネジでMCUカバープレートとスイッチプレートをスペーサで固定します。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8985.jpg?raw=true" width = "600px" />
+
+## 9. ゴム足シールの取り付け
+
+当キーボードはゴム足シールを2種類用意しています。
+
+手前側 : 薄め(3個入りです。画像は6個になっていますが。)  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8986.jpg?raw=true" width = "600px" />
+
+底上げプレート用 : 厚め(3個入りです)  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8991.jpg?raw=true" width = "600px" />
+
+ご自身の打鍵スタイルにあわせてゴム足シールを貼り付けてください。以下は例です。
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8992.jpg?raw=true" width = "600px" />
+
+## 10. キーキャップを取り付ける
+
+キーキャップを取り付けます。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8994.jpg?raw=true" width = "600px" />
+
+
 
 
 
