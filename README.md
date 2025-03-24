@@ -1,5 +1,7 @@
 # Left Slinger
 
+*※ 2025/03/25 キーケット2025で頒布したLeft SlingerのキットにてMCUカバープレート取り付け用のネジが不足している可能性があります。ご自身で8mmのネジを購入して頂くか、[@takashicompany](https://x.com/takashicompany)までご連絡いただけましたら発送致します。お手数をおかけしますが、どうぞよろしくお願いいたします。*
+
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/01.jpg?raw=true" width = "600px" />
 
 Left Slinger(レフトスリンガー)はジョイスティックとロータリーエンコーダーを搭載した18キーの左手用のマクロパッドです。  
