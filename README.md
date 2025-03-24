@@ -123,7 +123,7 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 
 ## 4. ファームウェアの書き込み
 
-ファームウェアの詳細はこちらに記載しております。
+ファームウェアの詳細は[こちら](https://github.com/takashicompany/left_slinger/blob/master/README.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)に記載しております。
 
 ファームウェアの書き込み方は[こちら](https://github.com/takashicompany/build-guide/blob/master/firmware/qmk-rp2040-zero.md)を御覧ください。
 
