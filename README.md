@@ -1,6 +1,6 @@
 # Left Slinger
 
-*※ 2025/03/25 キーケット2025で頒布したLeft SlingerのキットにてMCUカバープレート取り付け用のネジが不足している可能性があります。ご自身で[8mmのネジを購入して頂く]((https://shop.yushakobo.jp/products/a0800n2?variant=37665433026721)か、[@takashicompany](https://x.com/takashicompany)までご連絡いただけましたら発送致します。お手数をおかけしますが、どうぞよろしくお願いいたします。*
+*※ 2025/03/25 キーケット2025で頒布したLeft SlingerのキットにてMCUカバープレート取り付け用のネジが不足している可能性があります。ご自身で[8mmのネジを購入して頂く](https://shop.yushakobo.jp/products/a0800n2?variant=37665433026721)か、[@takashicompany](https://x.com/takashicompany)までご連絡いただけましたら発送致します。お手数をおかけしますが、どうぞよろしくお願いいたします。*
 
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/01.jpg?raw=true" width = "600px" />
 
