@@ -32,5 +32,15 @@
 |:--|:--|:--|
 |[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)|18|キースイッチの取り替えが容易になります。|
 
+## ファームウェア
+
+ファームウェアは[こちら](https://github.com/takashicompany/left_slinger/raw/refs/heads/master/firmwares/takashicompany_left_slinger_via.uf2)からダウンロードできます。
+ソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/master/keyboards/takashicompany/left_slinger)です。
+
+ファームウェアは[Remap](https://remap-keys.app/)に対応しておりますので、ブラウザからキーマップを変更可能です。
+
+レイヤー6はマウスレイヤーとなっており、ジョイスティックを操作してポインターが移動した際に自動で切り替わるレイヤーです。
+レイヤー7は設定変更用のレイヤーとなっております。
+
 
 
