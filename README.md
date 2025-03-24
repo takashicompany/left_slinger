@@ -41,43 +41,6 @@ Left Slinger(レフトスリンガー)はジョイスティックとロータリ
 |:--|:--|:--|
 |[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)|18|キースイッチの取り替えが容易になります。基本的には使用することをオススメします。当ビルドガイドはキースイッチソケットを用いた例のみを紹介しております。|
 
-## ファームウェア
-
-ファームウェアは[こちら](https://github.com/takashicompany/left_slinger/raw/refs/heads/master/firmwares/takashicompany_left_slinger_via.uf2)からダウンロードできます。
-ソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/master/keyboards/takashicompany/left_slinger)です。
-
-ファームウェアは[Remap](https://remap-keys.app/)に対応しておりますので、ブラウザからキーマップを変更可能です。
-
-レイヤー6はマウスレイヤーとなっており、ジョイスティックを操作してポインターが移動した際に自動で切り替わるレイヤーです。
-
-レイヤー7は設定変更のために用意したレイヤーです。赤丸の箇所を同時押しすると有効になります。  
-
-<img src = "https://github.com/user-attachments/assets/3fe65462-c83e-4e15-8d9c-a42ca1d6b176" width = "600px" />
-
-不要の場合は使用しなくてもOKです。  
-
-以下は Left Slinger専用のキーです。
-Remapなどで指定すると使用可能となります。
-
-|Remapでの表記|キー名|説明|
-|:---|:---|:---|
-|USER 0|左クリック|マウスの1ボタン目です。主に左クリックとなります。|
-|USER 1|右クリック|マウスの2ボタン目です。主に左クリックとなります。|
-|USER 2|第3クリック|マウスの3ボタン目です。|
-|USER 3|スクロール入力|ジョイスティックがポインター操作になっている場合、このキーを押下した状態でジョイスティックを操作するとスクロール入力になります。|
-|USER 4|マウスレイヤー移行移動量増加|マウスレイヤーを有効にするための判定の閾値を増加させます。値が大きくなるほどポインター操作を長くしないとマウスレイヤーが有効になりません。|
-|USER 5|マウスレイヤー移行移動量減少|マウスレイヤーを有効にするための判定の閾値を減少させます。値が少なくなるほどポインター操作が小さくてもマウスレイヤーが有効になります。|
-|USER 6|縦スクロール方向|スクロール入力キーを用いてスクロールする際の垂直方向の向きを変えます。|
-|USER 7|横スクロース方向|スクロール入力キーを用いてスクロールする際の水平方向の向きを変えます。|
-|USER 8|ジョイスティック除数増加|ジョイスティックの入力の除数を増加させます。除数が増えるほどポインターの移動量が少なくなります。|
-|USER 9|ジョイスティック除数減少|ジョイスティックの入力の除数を減少させます。除数が減るほどポインター移動量が多くなります。|
-|USER 10|設定変更完了|設定変更レイヤーを終了してキーボードに保存します。|
-|USER 11|ジョイスティック操作切り替え|ジョイスティックの操作を切り替えます。(ポインター操作 / 3方向キー入力)|
-|USER 12|ジョイスティック3方向キー入力有効|このキーを押下している間は、ジョイスティック操作による3方向キー入力が可能です。|
-
-3方向入力は下図になります。  
-<img src = "https://github.com/user-attachments/assets/e409d76a-e8d3-4c19-93c4-f15289b5f3ee?raw=true" height = "300px" /><img src = "https://github.com/user-attachments/assets/0e51f79d-1dd9-4cca-963b-64446c8a8563" height = "300px" />
-
 # 組み立て方
 
 ## 1. 基板の表裏を確認する
@@ -132,11 +95,45 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 
 ## 4. ファームウェアの書き込み
 
-ファームウェアの詳細は[こちら](https://github.com/takashicompany/left_slinger/blob/master/README.md#%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2)に記載しております。
+ファームウェアは[こちら](https://github.com/takashicompany/left_slinger/raw/refs/heads/master/firmwares/takashicompany_left_slinger_via.uf2)からダウンロードできます。
+ソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/master/keyboards/takashicompany/left_slinger)です。
 
 ファームウェアの書き込み方は[こちら](https://github.com/takashicompany/build-guide/blob/master/firmware/qmk-rp2040-zero.md)を御覧ください。
 
-## 6. キースイッチソケットの取付け
+ファームウェアは[Remap](https://remap-keys.app/)に対応しておりますので、ブラウザからキーマップを変更可能です。
+
+レイヤー6はマウスレイヤーとなっており、ジョイスティックを操作してポインターが移動した際に自動で切り替わるレイヤーです。
+
+レイヤー7は設定変更のために用意したレイヤーです。赤丸の箇所を同時押しすると有効になります。  
+
+<img src = "https://github.com/user-attachments/assets/3fe65462-c83e-4e15-8d9c-a42ca1d6b176" width = "600px" />
+
+不要の場合は使用しなくてもOKです。  
+
+以下は Left Slinger専用のキーです。
+Remapなどで指定すると使用可能となります。
+
+|Remapでの表記|キー名|説明|
+|:---|:---|:---|
+|USER 0|左クリック|マウスの1ボタン目です。主に左クリックとなります。|
+|USER 1|右クリック|マウスの2ボタン目です。主に左クリックとなります。|
+|USER 2|第3クリック|マウスの3ボタン目です。|
+|USER 3|スクロール入力|ジョイスティックがポインター操作になっている場合、このキーを押下した状態でジョイスティックを操作するとスクロール入力になります。|
+|USER 4|マウスレイヤー移行移動量増加|マウスレイヤーを有効にするための判定の閾値を増加させます。値が大きくなるほどポインター操作を長くしないとマウスレイヤーが有効になりません。|
+|USER 5|マウスレイヤー移行移動量減少|マウスレイヤーを有効にするための判定の閾値を減少させます。値が少なくなるほどポインター操作が小さくてもマウスレイヤーが有効になります。|
+|USER 6|縦スクロール方向|スクロール入力キーを用いてスクロールする際の垂直方向の向きを変えます。|
+|USER 7|横スクロース方向|スクロール入力キーを用いてスクロールする際の水平方向の向きを変えます。|
+|USER 8|ジョイスティック除数増加|ジョイスティックの入力の除数を増加させます。除数が増えるほどポインターの移動量が少なくなります。|
+|USER 9|ジョイスティック除数減少|ジョイスティックの入力の除数を減少させます。除数が減るほどポインター移動量が多くなります。|
+|USER 10|設定変更完了|設定変更レイヤーを終了してキーボードに保存します。|
+|USER 11|ジョイスティック操作切り替え|ジョイスティックの操作を切り替えます。(ポインター操作 / 3方向キー入力)|
+|USER 12|ジョイスティック3方向キー入力有効|このキーを押下している間は、ジョイスティック操作による3方向キー入力が可能です。|
+
+3方向入力は下図になります。  
+<img src = "https://github.com/user-attachments/assets/e409d76a-e8d3-4c19-93c4-f15289b5f3ee?raw=true" height = "300px" /><img src = "https://github.com/user-attachments/assets/0e51f79d-1dd9-4cca-963b-64446c8a8563" height = "300px" />
+
+
+## 5. キースイッチソケットの取付け
 
 キースイッチソケットは基板とキースイッチを接続するものです。この部品を用いることでキースイッチ自体を基板にハンダ付けする必要がなくなるのでキースイッチの交換が容易になります。  
 
@@ -156,7 +153,18 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/060-switch-socket-05.jpg?raw=true" width = "600px" />
 -->
 
-## 7. キースイッチとプレートの取付け
+## 6. ジョイスティックの取り付け
+
+ジョイスティックを基板にハンダ付けします。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-01.jpg?raw=true" width = "600px" />
+
+ジョイスティックはキーボードの右手前側に取り付けます。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-02.jpg?raw=true" width = "600px" />
+
+穴に挿し込んだ後、基板を裏返してジョイスティックの足が出ていることを確認してハンダ付けを行います。  
+<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-03.jpg?raw=true" width = "600px" />
+
+## 6. キースイッチとプレートの取付け
 
 スイッチプレートに保護シートがある場合は剥がしてください。アクリル板の場合は水を少量つけてピンセットで端を持つと剥がれやすいことがあります。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-01.jpg?raw=true" width = "600px" />
@@ -164,18 +172,9 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 基板の上にスイッチプレートを載せます。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-02.jpg?raw=true" width = "600px" />
 
+
 キースイッチを用意します。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-03.jpg?raw=true" width = "600px" />
-
-<!--
-<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-01.jpg?raw=true" width = "600px" />
-
-
-<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-02.jpg?raw=true" width = "600px" />
-
-
-<img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04-js-03.jpg?raw=true" width = "600px" />
--->
 
 数個のキースイッチをスイッチプレートに挿し込んで、基板とスイッチプレートをキースイッチで仮止めします。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/070-switch-04.jpg?raw=true" width = "600px" />
@@ -256,6 +255,17 @@ MCUカバープレートをスイッチプレートに重ねます。
 
 キーキャップを取り付けます。  
 <img src = "https://github.com/takashicompany/left_slinger/blob/master/images/build/IMG_8994.jpg?raw=true" width = "600px" />
+
+### 11. 完成した後の楽しみ方
+
+完成しましたら、ぜひSNSなどに写真を投稿頂ければと思います。
+Twitterのハッシュタグは [`#LeftSlinger #自作キーボード`](https://twitter.com/search?q=%23%E8%87%AA%E4%BD%9C%E3%82%AD%E3%83%BC%E3%83%9C%E3%83%BC%E3%83%89%20%23LeftSlinger&src=typed_query) を付けていただけると幸いです。
+キットを組み立てた感想や、キーボードを使った所感などをお待ちしております！
+
+また、毎週日曜日の１9時より実施されている[#KEEP_PD](https://twitter.com/hashtag/KEEB_PD?f=live)に投稿頂くこともオススメです。  
+開催の告知は[@KEEB_PD](https://twitter.com/KEEB_PD)にて行われております。
+
+ご不明な点などございましたら、[@takashicompany](https://twitter.com/takashicompany)にメンションやDM頂ければ回答できるかと思います。
 
 
 
